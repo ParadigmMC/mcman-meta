@@ -15,6 +15,21 @@
       }
     },
     {
+      "id": "packwiz",
+      "name": "Packwiz",
+      "tool_type": {
+        "type": "platform_bin",
+        "windows": {
+          "type": "url",
+          "url": "https://nightly.link/packwiz/packwiz/workflows/go/master/Windows%2064-bit.zip"
+        },
+        "linux": {
+          "type": "url",
+          "url": "https://nightly.link/packwiz/packwiz/workflows/go/master/Linux%2064-bit%20x86.zip"
+        }
+      }
+    },
+    {
       "id": "unbted",
       "name": "Una's NBT Editor",
       "tool_type": {

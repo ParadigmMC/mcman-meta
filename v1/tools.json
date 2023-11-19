@@ -1,0 +1,15 @@
+{
+  "tools": [
+    {
+      "id": "buildtools",
+      "name": "BuildTools",
+      "downloadable": {
+        "type": "jenkins",
+        "url": "https://hub.spigotmc.org/jenkins",
+        "job": "BuildTools",
+        "build": "latest",
+        "artifact": "BuildTools"
+      }
+    }
+  ]
+}

@@ -3,12 +3,24 @@
     {
       "id": "buildtools",
       "name": "BuildTools",
+      "tool_type": "java",
       "downloadable": {
         "type": "jenkins",
         "url": "https://hub.spigotmc.org/jenkins",
         "job": "BuildTools",
         "build": "latest",
         "artifact": "BuildTools"
+      }
+    },
+    {
+      "id": "concoction",
+      "name": "Concoction by MMPA",
+      "tool_type": "java",
+      "downloadable": {
+        "type": "ghrel",
+        "repo": "Minecraft-Malware-Prevention-Alliance/concoction",
+        "tag": "latest",
+        "asset": "first"
       }
     }
   ]

@@ -3,24 +3,41 @@
     {
       "id": "buildtools",
       "name": "BuildTools",
-      "tool_type": "java",
-      "downloadable": {
-        "type": "jenkins",
-        "url": "https://hub.spigotmc.org/jenkins",
-        "job": "BuildTools",
-        "build": "latest",
-        "artifact": "BuildTools"
+      "tool_type": {
+        "type": "java",
+        "downloadable": {
+          "type": "jenkins",
+          "url": "https://hub.spigotmc.org/jenkins",
+          "job": "BuildTools",
+          "build": "latest",
+          "artifact": "BuildTools"
+        }
+      }
+    },
+    {
+      "id": "unbted",
+      "name": "Una's NBT Editor",
+      "tool_type": {
+        "type": "java",
+        "downloadable": {
+          "type": "ghrel",
+          "repo": "unascribed/unbted",
+          "tag": "latest",
+          "asset": "first"
+        }
       }
     },
     {
       "id": "concoction",
       "name": "Concoction by MMPA",
-      "tool_type": "java",
-      "downloadable": {
-        "type": "ghrel",
-        "repo": "Minecraft-Malware-Prevention-Alliance/concoction",
-        "tag": "latest",
-        "asset": "first"
+      "tool_type": {
+        "type": "java",
+        "downloadable": {
+          "type": "ghrel",
+          "repo": "Minecraft-Malware-Prevention-Alliance/concoction",
+          "tag": "latest",
+          "asset": "first"
+        }
       }
     }
   ]

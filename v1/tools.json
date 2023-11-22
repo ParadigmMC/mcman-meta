@@ -53,7 +53,7 @@
           "type": "ghrel",
           "repo": "Minecraft-Malware-Prevention-Alliance/concoction",
           "tag": "latest",
-          "asset": "first"
+          "asset": "cli"
         }
       }
     },

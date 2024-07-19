@@ -6,6 +6,7 @@ jobs:
     ls:
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v3
             - run: cd templates && ls -1 | grep -v 'ls' > ls
             - run: cd features && ls -1 | grep -v 'ls' > ls
             - run: cd addons && ls -1 | grep -v 'ls' > ls

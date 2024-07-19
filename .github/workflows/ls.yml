@@ -1,0 +1,11 @@
+name: ls
+on: 
+    push:
+
+jobs:
+    ls:
+        runs-on: ubuntu-latest
+        steps:
+            - run: cd templates && ls -1 | grep -v 'ls' > ls
+            - run: cd features && ls -1 | grep -v 'ls' > ls
+            - run: cd addons && ls -1 | grep -v 'ls' > ls
